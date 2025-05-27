@@ -1,0 +1,191 @@
+body {
+	//background : gray;
+	margin : 0px;
+	padding : 0px;
+	font-family : 微軟正黑體, Microsoft JhengHei, Heiti TC, LiHei Pro, helvetica;
+	background-image : url(./img/background.jpg);
+	background-attachment : fixed;
+}
+a {
+	text-decoration : none;
+}
+
+#gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;    
+    padding: 10px 15px;
+    font-size: 35px;
+    background: #004B97;
+    color: white;
+    cursor: pointer;
+}
+
+/***********************
+header
+***********************/
+
+#header {
+/*
+	position : fixed ;
+	top : 0px;
+	left : 0px;
+	right : 0px;
+*/
+	//background-color : white;
+	background : #eee;
+	opacity:0.9;
+	filter: alpha(opacity=90);
+	width : 75%;
+	margin : 0px auto;
+	//border-top: 5px solid #004B97;
+	padding : 30px 0px 30px 0px;
+	padding-top : 30px;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a{
+	text-decoration : none;
+	font-size : 17px;
+	padding : 20px 20px 20px 20px;
+	color : white;
+	//color : #777777;
+}
+
+#menu li a:hover {
+	color : white;
+	padding : 20px 20px 20px 20px;
+	background : #003D79;
+	transition: background-color 0.3s;
+}
+
+#header .logo {
+	width : 300px;
+}
+
+#title h1{
+	text-align : center;
+	margin : 0px;
+	font-size : 55px;	
+	font-weight : bolder;
+}
+
+#title h3{
+	text-align : right;
+	font-weight : bolder;
+	margin-right : 30px;
+}
+
+#title {
+	padding : 10px;
+}
+
+#menu {
+	position : fixed;
+	top : 0px;
+	margin : 0px auto;
+	right : 300px;
+	padding : 0px;
+	margin : 0px;
+	z-index:1;
+}
+
+#menu ul {
+	opacity :0.9;
+	padding : 20px 0px 20px 0px;
+	margin : 10px 0px 10px 0px;	
+	background : #004B97;
+	/*
+		padding : 0px;
+		margin : 0px;*/
+}
+
+
+
+/***********************
+main
+***********************/
+#main {
+	opacity:0.90;
+	filter: alpha(opacity=90);
+	width : 75%;
+	margin : 0px auto;
+	background : white;
+	//background : #eee;
+	top : 185px;
+}
+
+.content {
+	padding : 50px;
+	//margin : 25px;
+	//border : 3px solid red;
+}
+
+.content h1 {
+	padding : 20px;
+	font-weight : bolder;
+	color : #004B97;
+	border-left : 4px solid #004B97;
+}
+
+.content h3 {
+	font-size : 30px;
+	padding : 5px;
+	font-weight : bolder;
+}
+
+.content p{
+	font-size :18px;
+	padding : 10px 40px;
+	line-height: 35px;
+	//font-weight: bolder;
+	color:black;
+}
+
+.content ul, .content li , .content tr, .content th{
+	font-size : 18px;
+	line-height : 35px;
+	list-style :none;
+	padding : 0px 40px;
+}
+
+.flowchart {
+	margin : 0px auto;
+	width : 100%;
+	padding :10px;
+}
+
+#teacher th, #teacher tr{
+	text-align:center;
+}
+
+#teacher table{
+	margin :50px;
+}
+
+/***********************
+footer
+***********************/
+
+#footer {
+	opacity:0.9;
+	width : 75%;
+	margin : 0px auto;
+	padding : 0px;
+	font-size : 14px;
+	//clear : left;
+	background : #e9eaee;
+}
+
+#footer p{
+	padding : 20px 80px;
+}
+
+
+
+
+
